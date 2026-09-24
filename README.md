@@ -40,3 +40,20 @@ fitness-ai/
 │   ├── login.php
 │   └── database.sql
 └── mobile/             # Flutter cross-platform mobile application codebase
+
+Setup & Running
+Backend Setup:
+
+Import database.sql into your local MySQL server.
+
+Host the PHP scripts using XAMPP, WAMP, or any local PHP server.
+
+Set up your local database credentials and OpenAI API key in the PHP backend files.
+
+Mobile Setup:
+
+Navigate to the mobile/ directory.
+
+Run flutter pub get to install all dependencies.
+
+Run flutter run to launch the mobile application.
