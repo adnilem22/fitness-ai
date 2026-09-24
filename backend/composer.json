@@ -1,0 +1,6 @@
+{
+    "name": "melin/flutter_mysql",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
