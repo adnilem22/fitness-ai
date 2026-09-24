@@ -26,6 +26,16 @@ A full-stack mobile application that generates personalized fitness plans and wo
 - API Architecture: RESTful JSON APIs
 
 ---
+## Setup & Running 
+### 1. Backend Setup:
+   - Import database.sql into your local MySQL server.
+   - Host the PHP scripts using XAMPP, WAMP, or any local PHP server.
+   - Set up your local database credentials and OpenAI API key in the PHP backend files.
+
+### 2. Mobile Setup:
+   - Navigate to the mobile/ directory.
+   - Run flutter pub get to install all dependencies.
+   - Run flutter run to launch the mobile application.
 
 ## Repository Structure
 
@@ -41,19 +51,3 @@ fitness-ai/
 │   └── database.sql
 └── mobile/             # Flutter cross-platform mobile application codebase
 
-Setup & Running
-Backend Setup:
-
-Import database.sql into your local MySQL server.
-
-Host the PHP scripts using XAMPP, WAMP, or any local PHP server.
-
-Set up your local database credentials and OpenAI API key in the PHP backend files.
-
-Mobile Setup:
-
-Navigate to the mobile/ directory.
-
-Run flutter pub get to install all dependencies.
-
-Run flutter run to launch the mobile application.
